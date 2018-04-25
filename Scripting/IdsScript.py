@@ -1,14 +1,7 @@
 import urllib.request
 import urllib.parse
 import urllib
-from urllib.parse import urlencode
-from urllib.request import Request, urlopen
 import re
-import sys
-from bs4 import BeautifulSoup
-import requests
-import json
-import time
 
 headers = {
     'User-Agent': "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 ""Safari/537.36 "}
